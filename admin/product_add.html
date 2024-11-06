@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <title>Winmart-Admin</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Điều Hướng -->
+        
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="/asset/images/1.jpg" alt="">
+           </div>
+            <h2>Quản Lý Siêu Thị</h2>
+               <ul>
+                    <li><a href=""><i class="ri-file-list-line"></i>Tài khoản<i class="ri-add-box-line"></i></a>
+                        <ul class="sub-menu">
+                            <div class="sub-menu-items">
+                                <li><a href=""><i class="ri-arrow-right-s-fill"></i>Quản lý</a></li>
+                                <li><a href=""><i class="ri-arrow-right-s-fill"></i>Người dùng</a></li>
+                            </div>
+                         </ul> 
+                    </li>
+                    <li><a href=""><i class="ri-file-list-line"></i>Sản phẩm<i class="ri-add-box-line"></i></a>
+                        <ul class="sub-menu">
+                           <div class="sub-menu-items">
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Danh sách</a></li>
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Danh mục</a></li>
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Thêm</a></li>
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Sửa</a></li>
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Xóa</a></li>
+                           </div>
+                        </ul> 
+                   </li>
+                    <li><a href=""><i class="ri-file-list-line"></i>Đơn hàng<i class="ri-add-box-line"></i></a>
+                         <ul class="sub-menu">
+                            <div class="sub-menu-items">
+                                <li><a href=""><i class="ri-arrow-right-s-fill"></i>Danh sách</a></li>
+                                <li><a href=""><i class="ri-arrow-right-s-fill"></i>Trạng thái</a></li>
+                                <li><a href=""><i class="ri-arrow-right-s-fill"></i>Chi tiết</a></li>
+                                <li><a href=""><i class="ri-arrow-right-s-fill"></i>Xử lý</a></li>
+                            </div>
+                         </ul> 
+                    </li>
+                    <li><a href=""><i class="ri-file-list-line"></i>Doanh thu<i class="ri-add-box-line"></i></a>
+                        <ul class="sub-menu">
+                           <div class="sub-menu-items">
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Theo thời gian</a></li>
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Theo sản phẩm</a></li>
+                               <li><a href=""><i class="ri-arrow-right-s-fill"></i>Tổng doanh thu</a></li>
+                           </div>
+                        </ul> 
+                   </li>
+                </ul>
+        </aside>
+        
+        <!-- Nội dung chính -->
+        <div class="admin-content">
+            <!-- Thanh điều hướng trên cùng -->
+            <div class="admin-content-top">
+                <div class="admin-content-top-left">
+                    <ul class="flexbox">
+                        <li><i class="ri-search-line"></i></li>
+                        <li><i class="ri-drag-move-line"></i></li>
+                    </ul>
+                    
+                </div>
+                <div class="admin-content-top-right">
+                    <ul class="flexbox">
+                        <li><i class="ri-notification-line"number="3"></i></li>
+                        <li><i class="ri-message-2-line" number="5"></i></li>
+                        <li>
+            
+                            <p>Mina<i class="ri-arrow-down-s-fill"></i></p>
+                        </li>
+                    </ul>          
+                </div>
+                <!--<div class="search-bar">
+                    <input type="text" placeholder="Tìm kiếm...">
+                </div>-->
+            </div> 
+            <div class="admin-content-main">
+                <div class="admin-content-main-title">
+                    <h1>Thêm sản phẩm</h1>
+                </div>
+                <div class="admin-content-main-content"></div> <!--Nội dung-->
+                    <div class="admin-content-main-content-left">
+                        <div class="admin-content-main-content-two-input">
+                            <input type="text" placeholder="Tên Sản Phẩm">
+                            <input type="text" placeholder="Chất liệu">
+                         <div class="admin-content-main-content-right-image">
+                            <label for="file">Ảnh Sản Phẩm</label>
+                            <input id="file" type="file">
+                            <div class="image-show"></div>
+                         </div>
+                     </div>
+                        <div class="admin-content-main-content-two-input">
+                            <input type="text" placeholder="Giá bán">
+                            <input type="text" placeholder="Giá giảm">
+                        </div>
+                        <textarea name="" id="" >Đặc điểm nổi bật</textarea>
+                        <textarea name="" id="" >Mô tả sản phẩm</textarea>
+                        <button class="main-btn">Thêm sản phẩm</button>
+                    </div>
+                
+            </div>
+
+
+            
+        </div>
+    </div>
+    <script src="/asset/js/script.js"></script>
+</body>
+</html>
